@@ -1,4 +1,3 @@
-# Imports
 from machine import Pin
 import time
 
@@ -18,4 +17,4 @@ while True:
         redled.toggle()
         
     if greenbutton.value() == 1:
-        greenled.toggle() # LED pin HIGH
+        greenled.toggle() 
