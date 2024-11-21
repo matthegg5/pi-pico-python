@@ -39,7 +39,7 @@ def loop_a():
             
             GRBled1.write()
             
-            time.sleep(0.5)
+            loop_c()
             
 def loop_b():
     while True:      
