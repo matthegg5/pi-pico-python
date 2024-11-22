@@ -33,8 +33,12 @@ while True:
     
     for colour in colours:
         
-        GRBled.fill((colour))
+        GRBled1.fill((colour))
         
-        GRBled.write()
+        GRBled1.write()
+        
+        GRBled2.fill((colour))
+        
+        GRBled2.write()
         
         time.sleep(0.5)
